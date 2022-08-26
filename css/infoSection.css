@@ -1,0 +1,178 @@
+.info-section {
+	padding: 140px;
+}
+
+.info-article {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+	height: 440px;
+}
+
+.info {
+	width: 70%;
+	grid-column: 1/2;
+}
+
+.info h2 {
+	font-size: 45px;
+	margin-bottom: 30px;
+	line-height: 55px;
+}
+
+.info p {
+	font-size: 18px;
+	margin-bottom: 30px;
+}
+
+.info div {
+	display: flex;
+}
+
+.info-img-container {
+	grid-column: 2/4;
+	overflow: hidden;
+	border-radius: 20px;
+}
+
+.info-img-container img {
+	height: 100%;
+	width: 100%;
+}
+
+.info-button {
+	width: 45%;
+	padding: 5px;
+	border-radius: 10px;
+	margin-right: 20px;
+	font-size: 15px;
+	font-weight: bold;
+	background: none;
+	cursor: pointer;
+}
+
+.info-button:hover {
+	box-shadow: 0px 6px 12px -4px rgba(0, 0, 0, 0.32);
+}
+
+.info-contact-button {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+	background-color: #20cb42;
+	border: none;
+}
+
+.info-message-contact {
+	font-size: 25px;
+	margin-right: 5px;
+}
+
+.info-form {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 140px;
+	padding: 30px 50px;
+	background-color: #f6f2f2;
+}
+
+.info-form p {
+	width: 40%;
+	font-size: 35px;
+	font-weight: bold;
+}
+
+.info-form form {
+	display: flex;
+	gap: 20px;
+	width: 55%;
+}
+
+.info-form input {
+	width: 80%;
+	padding: 15px 20px;
+	font-size: 15px;
+	border-radius: 15px;
+}
+
+.info-form button {
+	width: 20%;
+	border-radius: 15px;
+	font-size: 15px;
+	font-weight: bold;
+	border: none;
+	background-color: var(--main-bg-color);
+}
+
+.info-form button:hover {
+	box-shadow: 0px 6px 12px -4px rgba(0, 0, 0, 0.32);
+	cursor: pointer;
+}
+
+@media screen and (max-width: 640px) {
+	.info-section {
+		padding: 70px 25px;
+	}
+
+	.info-article {
+		grid-template-columns: repeat(1, 100%);
+		grid-template-rows: auto, 100%;
+		height: auto;
+	}
+	.info {
+		width: 100%;
+		grid-row: 2/3;
+	}
+
+	.info div {
+		justify-content: space-around;
+	}
+
+	.info h2,
+	.info p {
+		text-align: center;
+	}
+
+	.info-img-container {
+		grid-column: 1/2;
+		grid-row: 1/2;
+	}
+
+	.info-img-container img {
+		height: 100%;
+	}
+
+	.info-button {
+		margin-right: 0;
+	}
+
+	.info-form {
+		margin-top: 70px;
+		flex-direction: column;
+		background: none;
+	}
+
+	.info-form p {
+		width: 100%;
+		font-size: 25px;
+		margin-bottom: 20px;
+	}
+
+	.info-form form {
+		width: 100%;
+		justify-content: space-between;
+	}
+
+	.info-form input {
+		width: 70%;
+		padding: 5px 20px;
+		border-radius: 5px;
+	}
+
+	.info-form button {
+		width: 30%;
+		border-radius: 5px;
+	}
+}
