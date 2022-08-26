@@ -116,3 +116,9 @@
 		background-image: url("../src/img/descuentos/imagen4Responsive.png");
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.discount-item {
+		justify-content: center;
+	}
+}

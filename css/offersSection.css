@@ -227,3 +227,34 @@
 		right: -25px;
 	}
 }
+
+@media screen and (max-width: 500px) {
+	.offers-section__title {
+		font-size: 20px;
+		padding: 3px 20px;
+	}
+
+	.offers-title__watched {
+		font-size: 20px;
+	}
+}
+
+@media screen and (max-width: 460px) {
+	.offers-item {
+		height: 650px;
+	}
+
+	.offers-description {
+		padding: 16px 30px;
+	}
+
+	.offers-description > div {
+		flex-direction: column;
+		gap: 10px;
+	}
+
+	.offers-pay > p {
+		font-size: 12px;
+		padding: 5px 10px;
+	}
+}
