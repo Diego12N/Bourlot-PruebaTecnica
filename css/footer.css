@@ -77,7 +77,7 @@
 	font-size: 14px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 780px) {
 	.footer {
 		padding: 0 25px 0 25px;
 	}

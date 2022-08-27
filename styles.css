@@ -221,7 +221,13 @@ main {
 	cursor: pointer;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1710px) {
+	html {
+		font-size: 70%;
+	}
+}
+
+@media screen and (max-width: 780px) {
 	.social-tab {
 		top: 40%;
 	}

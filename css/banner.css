@@ -44,8 +44,8 @@
 .banner-card {
 	width: 30%;
 	height: 140px;
+	font-size: 2.8rem;
 	padding: 20px 37px;
-	font-size: 45px;
 	font-weight: bold;
 	line-height: 45px;
 	background-color: white;
@@ -78,12 +78,13 @@
 .card-pay {
 	display: flex;
 	justify-content: space-evenly;
+	align-items: center;
 }
 
 .card-pay__text {
 	display: inline-block;
 	margin: auto 0 auto 0;
-	font-size: 35px;
+	font-size: 2.2rem;
 	width: 60%;
 	height: max-content;
 }
@@ -104,7 +105,18 @@
 	padding-top: 10px;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 1360px) {
+	.card-pay__text {
+		line-height: 25px;
+		font-size: 1.8rem;
+	}
+
+	.banner-card {
+		padding: 15px 27px;
+	}
+}
+
+@media screen and (max-width: 780px) {
 	.banner-section {
 		height: max-content;
 		align-items: flex-start;
@@ -201,5 +213,19 @@
 
 	.card-pay__img {
 		width: 40%;
+	}
+}
+
+@media screen and (max-width: 450px) {
+	.mobile {
+		padding: 15px 20px;
+	}
+
+	.mobile-card-title {
+		font-size: 25px;
+	}
+
+	.card-pay__text {
+		font-size: 22px;
 	}
 }

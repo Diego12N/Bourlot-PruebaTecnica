@@ -6,6 +6,7 @@
 
 .categories-tittle {
 	margin-bottom: 62px;
+	font-size: 24px;
 }
 
 .categories-carrousel__container {
@@ -38,6 +39,8 @@
 	display: flex;
 	justify-content: space-between;
 	width: 100%;
+	overflow: hidden;
+	gap: 10%;
 }
 
 .categories-carrouse__item div {
@@ -66,7 +69,7 @@
 	background-color: var(--main-bg-color);
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 780px) {
 	.categories-section {
 		padding: 140px 70px 70px 70px;
 	}

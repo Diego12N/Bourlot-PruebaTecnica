@@ -111,7 +111,7 @@
 	cursor: pointer;
 }
 
-@media screen and (max-width: 640px) {
+@media screen and (max-width: 780px) {
 	.info-section {
 		padding: 70px 25px;
 	}
@@ -151,7 +151,6 @@
 	.info-form {
 		margin-top: 70px;
 		flex-direction: column;
-		background: none;
 	}
 
 	.info-form p {
