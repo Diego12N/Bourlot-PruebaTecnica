@@ -229,3 +229,13 @@
 		font-size: 22px;
 	}
 }
+
+@media screen and (max-width: 400px) {
+	.banner-card {
+		line-height: 25px;
+	}
+
+	.banner-card__container {
+		padding: 0 50px;
+	}
+}

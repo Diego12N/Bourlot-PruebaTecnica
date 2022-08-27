@@ -179,5 +179,10 @@
 @media screen and (max-width: 550px) {
 	.info-form {
 		padding: 30px 0px;
+		background: none;
+	}
+
+	.info-form p {
+		font-size: 20px;
 	}
 }

@@ -273,3 +273,17 @@
 		padding: 5px 10px;
 	}
 }
+
+@media screen and (max-width: 400px) {
+	.offers-section {
+		padding: 100px 25px;
+	}
+
+	.offers-section__title {
+		font-size: 18px;
+	}
+
+	.offers-title__watched {
+		font-size: 18px;
+	}
+}
